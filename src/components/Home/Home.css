@@ -1,0 +1,10 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.Home {
+  display: flex;
+  text-align: center;
+  height: 100vh;
+}

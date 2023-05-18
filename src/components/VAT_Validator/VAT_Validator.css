@@ -1,0 +1,73 @@
+.VAT_bckgnd img{
+  position: absolute;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.VAT {
+  position: relative;
+  top: 20%;
+  color: gold;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  font-family: Arial, sans-serif;
+}
+
+.VAT h1 {
+  margin: 0 0 1rem 0;
+  font-size: 4vw;
+  font-weight: bold;
+  text-align: center;
+}
+
+.VAT label {
+  display: block;
+  margin-bottom: 1vw;
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.VAT input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+}
+
+.VAT button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.VAT button:hover {
+  background-color: #0056b3;
+}
+
+.VAT .backbtn {
+  margin-top: 1rem;
+  background-color: #6c757d;
+}
+
+.VAT .backbtn:hover {
+  background-color: #5a6268;
+}
+
+.VAT #validation-result{
+  font-size: 2vw;
+  color: wheat;
+}

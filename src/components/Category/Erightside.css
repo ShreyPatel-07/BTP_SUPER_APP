@@ -1,0 +1,115 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.containerR{
+  border-left: 2px solid white;
+  text-align: left;
+  width: 98%;
+  height: 100%;
+}
+
+.Rightside {
+  background-color: black;
+  width: 50vw;
+  height: 100%;
+  color: white;
+}
+
+.options {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  position: relative;
+  top: 5%;
+  width: 100%;
+  height: 20%;
+}
+
+.options button {
+  position: relative;
+  width: 25%;
+  border: none;
+  text-align: center;
+  border-radius: 10%;
+  color: white;
+}
+
+.options button img {
+  position: relative;
+  top: 10%;
+  width: 92%;
+}
+
+.non-slf-tested{
+  text-align: center;
+  font-weight: 600;
+  font-size: large;
+}
+
+.Text_Translate, .Text_Translate .btn_text{
+  background-image: url("./assets/text_translaator.jpg");
+  color: white;
+}
+.Site_Translate , .Site_Translate .btn_text{
+  background-image: url("./assets/site.jpg");
+  color: white;
+}
+.Document_Translate, .Document_Translate .btn_text {
+  background-image: url("./assets/document.jpg");
+  color: black;
+}
+.Image_Translate, .Image_Translate .btn_text {
+  background-image: url("./assets/image.jpg");
+  color: white;
+}
+.Movie_Recommendor,.Movie_Recommendor .btn_text{
+  background-image: url("./assets/movie.jpg");
+  font-size: 110%;
+  color: white;
+}
+.Bulk_Email_Validator, .Bulk_Email_Validator .btn_text {
+  background-image: url("./assets/emails.jpg");
+  font-size: 110%;
+  color: white;
+}
+.News_Validator {
+  background-image: url("./assets/news.jpg");
+  color: white;
+}
+.News_Validator .btn_text {
+  position: relative;
+  top: 15%;
+  background-image: url("./assets/news.jpg");
+  color: black;
+}
+
+div.fadeOut {
+  border: 2px solid #11b800;
+  pointer-events: none;
+}
+
+.next_page{
+  position: relative;
+  left: 75%;
+  top: 10%;
+  width: 20%;
+  height: 3.5vh;
+}
+
+.next_page button{
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  background-color: #148A08;
+  color: white;
+  font-size: 1vw;
+  font-weight: 500;
+  border: none;
+}
+
+div.fadeIn {
+  border: 2px solid black;
+  pointer-events: all;
+}

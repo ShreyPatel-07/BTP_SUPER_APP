@@ -1,0 +1,106 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Money_Convertor_bckgd img{
+  position: absolute;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Money_Convertor {
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 97vw;
+    height: 95vh;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .Money_Convertor h1 {
+    position: relative;
+    color: #4caf50;
+    top: 13%;
+    font-size: 3vw;
+    margin-top: 0;
+  }
+  
+  .Money_Convertor .moneyform {
+    position: relative;
+    top: 10%;
+    flex-direction: column;
+    left: 0%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Money_Convertor label {
+    font-size: 1.5vw;
+    color: white;
+    margin-right: 10px;
+  }
+  
+  .Money_Convertor #amount{
+    width: 20%;
+    padding: 0.5%;
+    border-radius: 5px;
+    border: none;
+  }
+  .Moneynumber input[type="number"],
+  select {
+    font-size: 20px;
+    padding: 5px;
+    border: none;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .Money_Convertor button[type="submit"]{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    width: 25%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .Money_Convertor .backbtn {
+    position: relative;
+    top: 10%;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Money_Convertor button[type="submit"]:hover,
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .Money_Convertor #result {
+    position: relative;
+    top: 10%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  

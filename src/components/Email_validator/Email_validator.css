@@ -1,0 +1,71 @@
+.email_background{
+  width: 100vw;
+  background-image: url("email.jpg");
+}
+
+.Email_Validator {
+  position: relative;
+  top: 25%;
+  margin: auto;
+  width: 60%;
+  height: 60%;
+  text-align: center;
+}
+
+.Email_Validator h1 {
+  font-size: 3vw;
+  margin-bottom: 2rem;
+}
+
+.Email_Validator label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+.Email_Validator input[type="email"] {
+  width: 50%;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+.Email_Validator #validate-btn{
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.Email_Validator #validate-btn:hover {
+  background-color: #0d47a1;
+}
+
+.Email_Validator table {
+  background-color: white;
+  margin: auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+}
+
+.Email_Validator th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.Email_Validator th {
+  background-color: #2196f3;
+  color: white;
+}

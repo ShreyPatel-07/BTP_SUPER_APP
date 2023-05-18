@@ -1,0 +1,97 @@
+.Holiday_background{
+  width: 100vw;
+  background-image: url(Holiday.jpg);
+}
+
+.Holiday {
+  position: relative;
+  left: 40%;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: transparent;
+  width: 25%;
+  height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Holiday h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2vw;
+  color: white;
+  text-align: center;
+}
+
+.Holiday form {
+  position: relative;
+  left: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.Holiday label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.Holiday select{
+  padding: 10px;
+  font-size: 1vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Holiday input[type="number"] {
+  padding: 10px;
+  font-size: 1vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 10px;
+  width: 50%;
+}
+
+.Holiday select {
+  width: 200px;
+}
+
+.Holiday button[type="submit"] {
+  position: relative;
+  right: 3%;
+  padding: 10px;
+  font-size: 100%;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 85%;
+  justify-content: center;
+}
+
+.Holiday-result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.Holiday-back {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 100%;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

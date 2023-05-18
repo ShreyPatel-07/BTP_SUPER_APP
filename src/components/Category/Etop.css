@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.Etop{
+    background-color: transparent;
+    width: 100vw;
+    height: 8%;
+    color: white;
+}
+
+.containerT{
+    text-align: left;
+    width: 100%;
+    height: 20%;
+}
+
+.containerT .image_and_text{
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: 'Comfortaa', cursive;
+    width: 100vw;
+    height: 50%;
+}
+
+.containerT .image_and_text span{
+    text-align: center;
+    position: relative;
+    left: 30%;
+}
+
+.image_and_text img{
+    position: relative;
+    left: 10%;
+    top: 100%;
+    width: 10vw;
+}

@@ -1,0 +1,145 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+  
+  .containerL{
+    text-align: left;
+    width: 100%;
+    height: 90vh;
+  }
+  
+  .Rightside {
+    background-color: transparent;
+    width: 50vw;
+    height: 100%;
+    color: white;
+  }
+  
+  .optionsL {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: transparent;
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 20%;
+  }
+  
+  .optionsL button {
+    position: relative;
+    width: 25%;
+    border: none;
+    text-align: center;
+    border-radius: 10%;
+    font-size: 100%;
+    color: white;
+  }
+  
+  .btn_text {
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: black;
+    top: 5%;
+  }
+  
+  .optionsL button img {
+    position: relative;
+    top: 10%;
+    width: 90%;
+  }
+  
+  .slf-tested{
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1%;
+    font-family: 'Comfortaa', cursive;
+    font-size: 2vw;
+  }
+  
+  .EmailValidator, .EmailValidator .btn_text{
+    background-image: url("./assets/email.jpg");
+  }
+  .Holiday_Validator, .Holiday_Validator .btn_text{
+    background-image: url("./assets/Holiday.jpg");
+    color: white;
+  }
+  .IBAN, .IBAN .btn_text {
+    background-image: url("./assets/IBAN.jpg");
+    color: white;
+  }
+  .MoneyConvertor, .MoneyConvertor .btn_text {
+    background-image: url("./assets/money.jpg");
+  }
+
+  .PayPal, .PayPal .btn_text{
+    color: white;
+    background-image: url("./assets/Paypal.png");
+  }
+  .Phone_Number_Validation ,.Phone_Number_Validation .btn_text {
+    font-size: 100%;
+    background-image: url("./assets/phone.jpg");
+  }
+  .TimeZone_Validator, .TimeZone_Validator .btn_text {
+    color: black;
+    font-size: 120%;
+    background-image: url("./assets/TimeZone.jpg");
+  }
+  .VAT_Validator, .VAT_Validator .btn_text{
+    background-image: url("./assets/IBAN.jpg");
+    color: white;
+  }
+  .WeatherAPI , .WeatherAPI .btn_text{
+    background-color: #FF4ADE;
+    background-image: url("./assets/cloud.jpg");
+  }
+  .Github_Finder{
+    background-image: url("./assets/Github.jpg");
+  } 
+  .Github_Finder .btn_text{
+    position: relative;
+    top: -30%;
+    color: white;
+  }
+  
+  .IPAddressValidator, .IPAddressValidator .btn_text{
+    background-image: url("./assets/Ipaddress2.jpg");
+    font-size: 100%;
+    color: black;
+  }
+  .IP_Address_Validator2, .IP_Address_Validator2 .btn_text{
+    background-image: url("./assets/Ipaddress.jpg");
+    font-size: 110%;
+    color: white;
+  }
+  div.fadeOut {
+    border: 2px solid #11b800;
+    pointer-events: none;
+  }
+  
+  .next_page{
+    position: relative;
+    left: 75%;
+    top: 10%;
+    width: 20%;
+    height: 3.5vh;
+  }
+  
+  .next_page button{
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    background-color: #148A08;
+    color: white;
+    font-size: 1vw;
+    font-weight: 500;
+    border: none;
+  }
+  
+  div.fadeIn {
+    border: 2px solid black;
+    pointer-events: all;
+  }
+  
