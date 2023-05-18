@@ -15,7 +15,7 @@ const IBAN = () => {
       return;
     }
 
-    const url = `${ibanValidationUrl}?api_key=${apiKey}&iban=${iban}`;
+    const url = `${ibanValidationUrl}?api_key=${apiKey}&iban=${iban}`;  //PLEASE use your API KEY as my API KEY IS limited you can find your API KEY from "https://app.abstractapi.com/api/iban-validation/tester"
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
