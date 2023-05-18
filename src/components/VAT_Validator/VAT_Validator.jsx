@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./VAT_Validator.css";
 
-const apiKey = "YOUR API KEY";
+const apiKey = "YOUR API KEY"; //PLEASE use your API KEY as my API KEY IS limited you can find your API KEY from "https://app.abstractapi.com/api/vat/tester"
 const vatValidationUrl = "https://vat.abstractapi.com/v1/validate/";
 
 const httpGetAsync = (url, callback) => {
