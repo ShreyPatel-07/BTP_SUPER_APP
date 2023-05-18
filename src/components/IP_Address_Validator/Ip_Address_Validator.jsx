@@ -12,7 +12,7 @@ const IPAddressValidator = () => {
 
   const getGeolocation = () => {
     const ip = document.getElementById("ip").value;
-    const apiKey = "YOUR API KEY";
+    const apiKey = "YOUR API KEY";  //PLEASE use your API KEY as my API KEY IS limited you can find your API KEY from "https://app.ipgeolocation.io/"
     const url =
       "https://ipgeolocation.abstractapi.com/v1/?api_key=" +
       apiKey +
