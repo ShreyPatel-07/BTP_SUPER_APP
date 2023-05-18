@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./phone_number_Validator.css";
 const PhoneValidator = () => {
-  const apiKey = "YOUR API KEY";
+  const apiKey = "YOUR API KEY"; //PLEASE use your API KEY as my API KEY IS limited you can find your API KEY from "https://app.abstractapi.com/api/phone-validation/tester"
   const phoneValidationUrl = "https://phonevalidation.abstractapi.com/v1/";
 
   const [phoneInput, setPhoneInput] = useState("");
