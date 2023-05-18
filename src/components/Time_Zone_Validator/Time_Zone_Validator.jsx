@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Time_Zone_Validator.css";
 
-const apiKey = "YOUR API KEY";
+const apiKey = "YOUR API KEY"; //PLEASE use your API KEY as my API KEY IS limited you can find your API KEY from "https://app.abstractapi.com/api/timezone/tester"
 const timeZoneUrl = "https://timezone.abstractapi.com/v1/current_time/";
 
 const TimezoneValidation = () => {
