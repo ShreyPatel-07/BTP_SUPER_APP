@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import "../Email_validator/Email_validator.css";
 
 const Email = () => {
-  const apiKey = "d18f10398677417e86abfc609e02d909";
+  const apiKey = "YOUR API KEY"; //PLEASE use your API KEY as my API KEY IS limited you can find your API KEY from "https://app.abstractapi.com/api/email-validation/tester"
   const emailValidationUrl = "https://emailvalidation.abstractapi.com/v1/";
 
   function httpGetAsync(url, callback) {
